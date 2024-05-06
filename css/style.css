@@ -1,0 +1,92 @@
+@import url(variables.css);
+
+*{
+    background-color: #09181C;
+}
+
+.header{
+    display: flex;
+    color: #CEF5FF;
+    justify-content: space-between;
+    height: 8vh;
+    width: 198vh;
+    font-family: "Roboto Mono";
+}
+
+.header__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    margin-left: 50px;
+    font-family: "Roboto Mono";
+}
+
+.selectores{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 180%;
+    margin-right: 40px;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+}
+
+.selectores a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #61dfff; 
+}
+
+.main{
+    display: flex;
+    height: 89.5vh;
+    width: 198vh;
+}
+
+.main__content{
+    display: flex;
+    border: 1px solid green;
+    flex-direction: column;
+    height: 86vh;
+    width: 188vh;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+
+.main__titulo{
+    border: 1px solid yellow;
+    display: flex;
+    color: #CEF5FF;
+    height: 10vh;
+    align-items: center;
+    font-family: "Roboto Mono";
+    font-size: 140%;
+    font-weight: lighter;
+    margin-left: 3.9%;
+}
+
+/* ----------------------------- WEB COMPONENT INPUT  ------------------------------------- */
+
+.main__input{
+    display: flex;
+    border: 1px solid red;
+    margin-top: 1.5%;
+    margin-left: 4%;
+}
+
+.input {
+    color: white;
+    border: 2px solid #30C0CD;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    width: 90%;
+    font-size: 25px;
+  }
+  
+  .input:active {
+    box-shadow: 2px 2px 15px #30C0CD inset;
+  }
+  
